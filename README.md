@@ -22,19 +22,23 @@ Clone the repository:
 git clone https://github.com/samie/pdf-chat.git
 cd pdf-chat
 ```
-Build the project:
+
+Before running you need OpenAI API key or local LLM service running. 
+
+Set either `OPENAI_API_KEY` or edit the LLM url in `application.properties`. 
+
+Build and run the project:
 ```sh
-mvn clean package
+mvn spring-boot:run
 ```
-Run the application:
+or if you don't have Maven installed: 
 ```sh
-java -jar target/ai-pdf-chat.jar
+./mvnw spring-boot:run
 ```
 
-### API Usage
 Once running, access the application at:
 ```
-http://localhost:8080
+[http://localhost:8080](http://localhost:8080)
 ```
 ## License
 This project is licensed under the Apache 2.0 License.
