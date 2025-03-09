@@ -1,4 +1,5 @@
 # AI PDF Chat - Example Application for London Java User Group
+<img width="759" alt="app-screenshot" src="https://github.com/user-attachments/assets/0d3ead7e-8019-4c60-ba6f-9b750bc203bf" />
 
 ## Overview
 This repository contains an example Java-only application that enables AI-powered chat interactions with PDF documents.
